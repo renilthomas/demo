@@ -110,9 +110,9 @@ make apply
 ```
 
 After applying the `web` terraform changes, the `elb_hostname` value in the output can be used to access the webserver.
-http://<elb-hostname>/demodb.php
+http://`elb-hostname`/demodb.php
 
-This will connect to the DB instance and display the followoing 
+This will connect to the DB instance and display the following 
 
 ```bash
 the value is: terraformdemo
