@@ -1,0 +1,7 @@
+# terraform directory
+**/.terraform
+
+# terraform compiled files
+**/*.tfstate.*
+**/*.tfstate
+**/*.tfvars
